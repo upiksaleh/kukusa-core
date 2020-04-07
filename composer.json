@@ -1,0 +1,28 @@
+{
+    "name": "kukusa/core",
+    "description": "kukusa CMS",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Upik Saleh",
+            "email": "upxsal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "yiisoft/yii2": "~2.0.30",
+        "ext-json": "*"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Kukusa\\": "src"
+        }
+    }
+}
